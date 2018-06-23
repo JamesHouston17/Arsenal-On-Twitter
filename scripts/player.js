@@ -1,5 +1,5 @@
 jQuery.get('data/players_manu.txt', function(player_data) {
-
+  // 1. create pie chart object
   Highcharts.chart('player-holder', {
     chart: {
       plotBackgroundColor: null,

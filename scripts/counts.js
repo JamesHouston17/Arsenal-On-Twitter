@@ -27,7 +27,7 @@ jQuery.get('data/counts_manu.txt', function(count_data) {
     },
     plotOptions: {
       series: {
-        pointStart: -5,
+        pointStart: -15,
         pointInterval: 5
       }
     },

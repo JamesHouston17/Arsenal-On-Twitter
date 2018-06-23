@@ -1,5 +1,5 @@
 jQuery.get('data/languages_manu.txt', function(language_data) {
-
+  // 1. create pie chart object
   Highcharts.chart('language-holder', {
     chart: {
       plotBackgroundColor: null,
