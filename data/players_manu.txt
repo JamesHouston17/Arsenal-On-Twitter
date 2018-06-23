@@ -1,0 +1,1 @@
+[{'name': 'yedder', 'y': 4833}, {'name': 'mourinho', 'y': 5584}, {'name': 'lukaku', 'y': 1536}, {'name': 'gea', 'y': 1054}, {'name': 'rashford', 'y': 1374}, {'name': 'sanchez', 'y': 2073}, {'name': 'bailly', 'y': 1310}, {'name': 'pogba', 'y': 1745}, {'name': 'Other', 'y': 0}]

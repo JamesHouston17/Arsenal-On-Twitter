@@ -1,0 +1,1 @@
+[{'name': 'English', 'y': 66209}, {'name': 'French', 'y': 1025}, {'name': 'Undefined', 'y': 2963}, {'name': 'Arabic', 'y': 684}, {'name': 'Portuguese', 'y': 345}, {'name': 'Spanish', 'y': 1014}, {'name': 'Japanese', 'y': 264}, {'name': 'Swedish', 'y': 167}, {'name': 'Other', 'y': 1011}]
