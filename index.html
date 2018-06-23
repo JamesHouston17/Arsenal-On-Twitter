@@ -1,18 +1,44 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
   <title>Man United - Sevilla on Twitter</title>
   <link rel="stylesheet" href="styles/bootstrap.min.css">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css" integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ==" crossorigin="" />
 </head>
+
 <body style="background-color:#fff">
   <div class="container">
     <div class="row mt-5">
       <div class="col">
         <div class="card" style="background-color:#ccc">
           <div class="card-header">
-            <h3>Overview of Tweet Counts</h3>
+            <h3>Analysis of Manchester United Related Twitter Activity
+              During Their Champions League Fixture Against Sevilla 13/03/2018</h3>
+          </div>
+          <div class="card-body">
+            <div class="row">
+              <div class="col">
+                <div class="chart-container" id="match-report"></div>
+                <p>This page contains a number of visualisation elements of Twitter data collected during the Manchester United - Sevilla Fixture on the 13th of March, 2018. Tweets containing the #MUFC hashtag were streamed and analysed. Breakdowns of player
+                  mentions and language are shown. Additionally there is a map visualisation of Tweet locations determined from the user locations of a random subset of the tweets. The most interesting graph is the one directly below, showing the counts
+                  of mentions of certain players and managers over the time period of 15 mins before kickoff to 15 mins after the final whistle. A link to the match timeline is provided below. Some interesting features include a sharp spike in mentions
+                  of Sevilla striker Ben Yedder at the time of his two goals in quick succession. This coincides with an increase in mention of the Man United Manager Jose Mourinho which persists after the game. Some smaller features can also be linked
+                  to events in the match. Such as Lukaku's Goal (peak at 100 min), David De Gea's save to prevent Ben Yedder's hattrick goal (two peaks at 110 mins), and Bailly's last ditch tackle to prevent a Sevilla chance in the second half (peak at
+                  65 mins).</p>
+                <a href="https://www.google.ie/search?q=man+united+vs+sevilla&oq=man+united+vs+se&aqs=chrome.0.0j69i57j69i61j0l3.9956j1j7&sourceid=chrome&ie=UTF-8#sie=m;/x/39yddqccw8tkf;2;/m/0c1q0;dt;fp;1">Link to Match Report.</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row mt-5">
+      <div class="col">
+        <div class="card" style="background-color:#ccc">
+          <div class="card-header">
+            <h3>Tweets by Player Over Time</h3>
           </div>
           <div class="card-body">
             <div class="row">
@@ -69,4 +95,5 @@
   <script src="scripts/player.js"></script>
   <script src="scripts/language.js"></script>
 </body>
+
 </html>
